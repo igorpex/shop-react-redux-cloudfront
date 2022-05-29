@@ -1,12 +1,12 @@
 org: igorpex
-app: node-in-aws-web
-service: node-in-aws-web
+app: igorpex-rs-app
+service: igorpex-rs-app
 
-frameworkVersion: '2'
+frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs12.xs
   # setup profile for AWS CLI.
   # profile: node-aws
 
@@ -19,7 +19,7 @@ plugins:
 
 custom:
   client:
-    bucketName: igorpex-rs-app
+    bucketName: igorpex-rs-app-serverless
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
