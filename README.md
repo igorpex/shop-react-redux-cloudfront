@@ -1,6 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Deploy
+
+manual deploy: http://igorpex-rs-app.s3-website-eu-west-1.amazonaws.com/,
+serverless deploy: http://igorpex-rs-app-serverless.s3-website-us-east-1.amazonaws.com/
+The app can be built and deployed by running npm script command: 
+ `yarn build:deploy` OR  `npm run build:deploy`
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:  
 You can use NPM instead of YARN (Up to you)  
