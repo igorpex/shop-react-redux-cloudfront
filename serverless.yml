@@ -6,7 +6,7 @@ frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs12.xs
+  runtime: nodejs16.x
   # setup profile for AWS CLI.
   # profile: node-aws
 
