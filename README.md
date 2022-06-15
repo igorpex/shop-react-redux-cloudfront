@@ -1,12 +1,22 @@
-## Deploy for task-2
-manual deploy: http://igorpex-rs-app.s3-website-eu-west-1.amazonaws.com/,
+
+## Deploy adapted FE app to work with AWS Lambda Backend
+
 serverless deploy: http://igorpex-rs-app-serverless.s3-website-us-east-1.amazonaws.com/
+
+Products are downloaded dynamically from APi backend.
+Sources are changed at: src\components\pages\PageProducts\components\Products.tsx 
+at line 39: axios.get(`${API_PATHS.ts}/dev/products`)
+ts - is one of paths in Paths file.
+Two choises, working similary: 'ts' and 'commonjs'
+
+Paths are here: src\constants\apiPaths.ts
+
+To start locally, use `npm run start` or `yarn start`.
+
 The app can be built and deployed by running npm script command: 
  `yarn build:deploy` OR  `npm run build:deploy`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:  
 You can use NPM instead of YARN (Up to you)  
