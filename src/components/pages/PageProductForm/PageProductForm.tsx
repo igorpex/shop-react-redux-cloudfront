@@ -126,7 +126,6 @@ export default function PageProductForm() {
       axios.put(`${API_PATHS.bff}/products/${id}`, productToSave)
         .then(() => history.push('/admin/products'));
     }
-
   };
 
   useEffect(() => {
