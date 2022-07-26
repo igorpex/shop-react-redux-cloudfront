@@ -1,5 +1,5 @@
 
-## Deploy adapted FE app to work with AWS Lambda Backend
+For AWS task-3 FE app was adapted to work with AWS Lambda Backend
 
 Deploy: https://shop-react-redux-aws.netlify.app/
 serverless deploy on S3 (Cloudfront is closed for me): http://igorpex-rs-app.s3-website-eu-west-1.amazonaws.com/
@@ -16,8 +16,6 @@ To start locally, use `npm run start` or `yarn start`.
 
 The app can be built and deployed by running npm script command: 
  `yarn build:deploy` OR  `npm run build:deploy`
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:  
 You can use NPM instead of YARN (Up to you)  
