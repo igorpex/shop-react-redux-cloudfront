@@ -1,7 +1,8 @@
 
 ## Deploy adapted FE app to work with AWS Lambda Backend
 
-serverless deploy: http://igorpex-rs-app-serverless.s3-website-us-east-1.amazonaws.com/
+Deploy: https://shop-react-redux-aws.netlify.app/
+serverless deploy on S3 (Cloudfront is closed for me): http://igorpex-rs-app.s3-website-eu-west-1.amazonaws.com/
 
 Products are downloaded dynamically from APi backend.
 Sources are changed at: src\components\pages\PageProducts\components\Products.tsx 
