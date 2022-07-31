@@ -1,8 +1,10 @@
+For AWS task-8 FE app was adapted to work with Cart, served from Elastic Beanstalk.
 
-For AWS task-3 FE app was adapted to work with AWS Lambda Backend
+Serverless deploy on S3 (Cloudfront is still closed for me): http://igorpex-rs-app.s3-website-eu-west-1.amazonaws.com/
+Alternate deploy on netlify : https://shop-react-redux-aws.netlify.app/ 
+(comment for me to remember: to deploy I used command 'netlify deploy --prod', then enter 'build' dir)
 
-Deploy: https://shop-react-redux-aws.netlify.app/
-serverless deploy on S3 (Cloudfront is closed for me): http://igorpex-rs-app.s3-website-eu-west-1.amazonaws.com/
+Cart address http://igorpex-cart-api-develop.eu-west-1.elasticbeanstalk.com/api/profile/cart
 
 Products are downloaded dynamically from APi backend.
 Sources are changed at: src\components\pages\PageProducts\components\Products.tsx 
